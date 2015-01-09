@@ -1,7 +1,7 @@
 A-wizMails
 ==========
 
-A node.js module to send emails to list of Android-wiz Users 
+A node.js module to send emails to list of Android-wiz[My-Website] Users 
 
 
 For this i am using node mailer service ;)
