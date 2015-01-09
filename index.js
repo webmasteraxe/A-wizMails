@@ -10,7 +10,7 @@ var transport = nodemailer.createTransport("SMTP", {
                             // If you are using @gmail.com address, then you don't
                             // even have to define the service name
         auth: {
-            user: "dileep@gmail.com",
+            user: "xxxxx@gmail.com",
             pass: "4gHKXAIFdF1KSKcxkixc7g"
         }
     });
@@ -21,10 +21,10 @@ console.log('SMTP Configured');
 var message = {
  
     // sender info
-    from: 'Sender Name <dileep@gmail.com>',
+    from: '<SenderName>',
  
     // Comma separated list of recipients
-    to: '"Receiver Name" <dileep@yahoomail.com>',
+    to: '<xxxx@yahoomail.com>',
  
     // Subject of the message
     subject: 'Nodemailer is unicode friendly ✔', //
